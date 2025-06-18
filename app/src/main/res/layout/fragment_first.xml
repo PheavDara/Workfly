@@ -12,6 +12,7 @@
         android:id="@+id/btnLogo"
         android:layout_width="100dp"
         android:layout_height="100dp"
+        android:contentDescription="@string/logo"
         android:src="@drawable/img_logo"
         android:layout_marginBottom="16dp"
         android:background="@drawable/search_bar_background"

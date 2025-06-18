@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "687396818091",
+    "project_id": "workfly-39194",
+    "storage_bucket": "workfly-39194.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:687396818091:android:2ab4da5e58f3a48b853bee",
+        "android_client_info": {
+          "package_name": "com.dara.finderjob"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDAbHS8nwu0BOM_qXBA6XEctzdI4F3feWg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

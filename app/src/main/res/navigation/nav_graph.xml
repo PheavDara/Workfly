@@ -11,39 +11,39 @@
         android:label="fragment_first"
         tools:layout="@layout/fragment_first" >
         <action
-            android:id="@+id/action_firstFragment_to_secondFragment"
-            app:destination="@id/secondFragment" />
+            android:id="@+id/action_firstFragment_to_feature1Fragment"
+            app:destination="@id/feature1Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/secondFragment"
-        android:name="com.dara.finderjob.SecondFragment"
-        android:label="fragment_second"
-        tools:layout="@layout/fragment_second" >
+        android:id="@+id/feature1Fragment"
+        android:name="com.dara.finderjob.Feature1Fragment"
+        android:label="fragment_feature1"
+        tools:layout="@layout/fragment_feature1" >
         <action
-            android:id="@+id/action_secondFragment_to_thirdFragment"
-            app:destination="@id/thirdFragment" />
-        <action
-            android:id="@+id/action_secondFragment_to_thirdFragment2"
-            app:destination="@id/thirdFragment" />
+            android:id="@+id/action_feature1Fragment_to_feature2Fragment"
+            app:destination="@id/feature2Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/thirdFragment"
-        android:name="com.dara.finderjob.ThirdFragment"
-        android:label="fragment_third"
-        tools:layout="@layout/fragment_third" >
+        android:id="@+id/feature2Fragment"
+        android:name="com.dara.finderjob.Feature2Fragment"
+        android:label="fragment_feature2"
+        tools:layout="@layout/fragment_feature2" >
         <action
-            android:id="@+id/action_thirdFragment_to_fourthFragment"
-            app:destination="@id/fourthFragment" />
-        <action
-            android:id="@+id/action_thirdFragment_to_fourthFragment2"
-            app:destination="@id/fourthFragment" />
-        <action
-            android:id="@+id/action_thirdFragment_to_fourthFragment3"
-            app:destination="@id/fourthFragment" />
+            android:id="@+id/action_feature2Fragment_to_feature3Fragment"
+            app:destination="@id/feature3Fragment" />
     </fragment>
     <fragment
-        android:id="@+id/fourthFragment"
-        android:name="com.dara.finderjob.FourthFragment"
-        android:label="fragment_fourth"
-        tools:layout="@layout/fragment_fourth" />
+        android:id="@+id/feature3Fragment"
+        android:name="com.dara.finderjob.Feature3Fragment"
+        android:label="fragment_feature3"
+        tools:layout="@layout/fragment_feature3" >
+        <action
+            android:id="@+id/action_feature3Fragment_to_siginSignupActivity"
+            app:destination="@id/siginSignupActivity" />
+    </fragment>
+    <activity
+        android:id="@+id/siginSignupActivity"
+        android:name="com.dara.finderjob.SigninSignupActivity"
+        android:label="activity_sigin_signup"
+        tools:layout="@layout/activity_signin_signup" />
 </navigation>

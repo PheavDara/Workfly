@@ -6,8 +6,7 @@ import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.navigation.findNavController
-import com.dara.finderjob.databinding.FragmentFirstBinding
-import com.dara.finderjob.databinding.FragmentThirdBinding
+import com.dara.finderjob.databinding.FragmentFeature2Binding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -16,10 +15,10 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [ThirdFragment.newInstance] factory method to
+ * Use the [Feature2Fragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class ThirdFragment : Fragment() {
+class Feature2Fragment : Fragment() {
     // TODO: Rename and change types of parameters
     private var param1: String? = null
     private var param2: String? = null
@@ -36,13 +35,12 @@ class ThirdFragment : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        val binding: FragmentThirdBinding = FragmentThirdBinding.inflate(inflater, container, false)
+        val binding: FragmentFeature2Binding = FragmentFeature2Binding.inflate(inflater, container, false)
         binding.apply {
-            nextButton.setOnClickListener {
-                it.findNavController().navigate(R.id.action_thirdFragment_to_fourthFragment)
+            btnNext.setOnClickListener {
+                it.findNavController().navigate(R.id.action_feature2Fragment_to_feature3Fragment)
             }
         }
-
         return binding.root
     }
 
@@ -53,12 +51,12 @@ class ThirdFragment : Fragment() {
          *
          * @param param1 Parameter 1.
          * @param param2 Parameter 2.
-         * @return A new instance of fragment ThirdFragment.
+         * @return A new instance of fragment Feature2Fragment.
          */
         // TODO: Rename and change types and number of parameters
         @JvmStatic
         fun newInstance(param1: String, param2: String) =
-            ThirdFragment().apply {
+            Feature2Fragment().apply {
                 arguments = Bundle().apply {
                     putString(ARG_PARAM1, param1)
                     putString(ARG_PARAM2, param2)

@@ -9,12 +9,16 @@
     <color name="yellow">#F1C40F</color>
     <color name="red">#E74C3C</color>
     <color name="gray">#BDC3C7</color>
-    <color name="dark_blue">#2C3E50</color>
+    <color name="dark_blue">#757880</color>
+    <color name="light_blue">#ECF2FF</color>
 
     <!-- Status Colors -->
-    <color name="info">#3498DB</color>
+    <color name="info">#757575</color>
     <color name="success">#27AE60</color>
     <color name="warning">#F39C12</color>
     <color name="error">#C0392B</color>
     <color name="main">#006FFD</color>
+
+    <color name="purple_500">#6200EE</color>
+
 </resources>
